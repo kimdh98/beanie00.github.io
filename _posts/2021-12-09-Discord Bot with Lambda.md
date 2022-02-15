@@ -8,20 +8,18 @@ categories: [Projects]
 tags: [Discord, Lambda]
 ---
 
-# Discord Bot with Lambda
-
-### Prerequisites
+## Prerequisites
 
 - Set up an AWS account
 - Knowledge on setting up basic Lambda function with Serverless framework
 - Experience with Javscript/Typescript
 - Set up a bot profile on discord
 
-### Goal
+## Goal
 
 Set up a discord bot interactions endpoint with AWS Lambda and API Gateway to activate/deactivate Minecraft server hosted on EC2 with commands
 
-### Experiment Journal
+## Experiment Journal
 
 After reminiscing with a friend about the good old days of playing minecraft together in our server, we decided to start up a fresh new server and get back into it(a~~ll roads lead down to minecraft..~~). 
 
