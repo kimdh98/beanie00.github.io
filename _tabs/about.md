@@ -14,4 +14,4 @@ order: 4
 * 🥜 (Bean)
     * [personal site](https://www.beanie.work/)
     * [github](https://github.com/beanie00)
-    * [linkedin](www.linkedin.com/in/beanie00/)
+    * [linkedin](https://www.linkedin.com/in/beanie00/)
