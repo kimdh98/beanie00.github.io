@@ -47,7 +47,7 @@ java의 RxJava, Spring5 Webflux의 Core에 있는 ProjectReactor 프로젝트 �
 &nbsp;
 ### ▪️ BackPressure (배압)
 
-앞서 Reactive Stream의 목적이 backpressure을 이용하고 비동기 스트림의 표준을 제공하는 것이라고 언급했다. BackPressure을 더 자세히 살펴보자. [리액티브 선언문 용어집](https://www.reactivemanifesto.org/ko/glossary) 에서는 BackPressure을 다음과 같이 설명하고 있다.
+앞서 Reactive Stream의 목적이 backpressure을 이용하고 비동기 스트림의 표준을 제공하는 것이라고 언급했다. BackPressure을 더 자세히 살펴보자. 배압은 한마디로 데이터 통지량을 제어하는 기능을 말한다. [리액티브 선언문 용어집](https://www.reactivemanifesto.org/ko/glossary) 에서는 BackPressure을 다음과 같이 설명하고 있다.
 
 > 한 컴포넌트가 부하를 이겨내기 힘들 때, 시스템 전체가 합리적인 방법으로 대응해야 한다. 과부하 상태의 컴포넌트에서 치명적인 장애가 발생하거나 제어 없이 메시지를 유실해서는 안 된다. 컴포넌트가 대처할 수 없고 장애가 발생해선 안 되기 때문에 컴포넌트는 상류 컴포넌트들에 자신이 과부하 상태라는 것을 알려 부하를 줄이도록 해야 한다. 이러한 배압은 시스템이 부하로 인해 무너지지 않고 정상적으로 응답할 수 있게 하는 중요한 피드백 방법이다. 배압은 사용자에게까지 전달되어 응답성이 떨어질 수 있지만, 이 메커니즘은 부하에 대한 시스템의 복원력을 보장하고 시스템 자체가 부하를 분산할 다른 자원을 제공할 수 있는지 정보를 제공할 것이다.
 
@@ -105,7 +105,7 @@ public interface Subscriber<T> {
 
 ***
 
-#### 참고 내용 출처 : 
+#### 참고 내용 출처 :
   * [https://jongmin92.github.io/2019/11/05/Java/reactive-1/](https://jongmin92.github.io/2019/11/05/Java/reactive-1/)
   * [https://sabarada.tistory.com/98](https://sabarada.tistory.com/98)
   * 스다 토모유키, 『RxJava 리액티브 프로그래밍』, 이승룔, (주)도서출판 길벗(2019)
