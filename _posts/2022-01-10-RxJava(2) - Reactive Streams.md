@@ -3,11 +3,14 @@ title: RxJava(2) - Reactive Streams
 author:
   name: Bean
   link: https://github.com/beanie00
-date: 2021-01-10 22:42:00 +0800
+date: 2022-01-10 22:42:00 +0800
 categories: [Mobile frontend, Android]
 tags: [RxJava]
 ---
 
+앞선 글에서 RxJava가 Reactive Streams 사양을 구현한다고 하였다. 따라서 Reactive Streams이 뭔지 자세히 알면 RxJava를 더 쉽게 이해할 수 있다. 그래서 이번 글에서는 Reactive Streams을 더 알아보도록 하겠다.
+\
+&nbsp;
 ## ◾ Reactive Streams란
 
 라이브러리나 프레임워크에 상관없이 데이터 스트림을 비동기로 다룰 수 있는 공통 메커니즘으로, 이 메커니즘을 편리하게 사용할 수 있는 인터페이스를 제공한다. 즉, Reactive Streams는 인터페이스만 제공하고 구현은 각 라이브러리와 프레임워크에서 한다.
